@@ -2,6 +2,10 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181951) 
 
+<p>정답</p>
+System.out.println("a = " + a + "\nb = " + b);
+자바에서 개행문자를 사용하기 위해서는 큰 따음표를 사용해야한다.
+
 ### 성능 요약
 
 메모리: 71.8 MB, 시간: 194.82 ms
