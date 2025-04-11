@@ -7,11 +7,11 @@ public class Solution {
         String result = "";
         
         for(char ch : a.toCharArray()){
-            if(Character.isLowerCase(ch)){
-                result += Character.toUpperCase(ch);
+            if(Character.isUpperCase(ch)){
+                result+=Character.toLowerCase(ch);
             }
             else{
-                result += Character.toLowerCase(ch);
+                result+=Character.toUpperCase(ch);
             }
         }
         System.out.println(result);
