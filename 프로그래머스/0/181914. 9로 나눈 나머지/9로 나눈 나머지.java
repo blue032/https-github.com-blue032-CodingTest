@@ -2,7 +2,6 @@ import java.math.BigInteger;
 
 class Solution {
     public int solution(String number) {
-        BigInteger bigNumber = new BigInteger(number);
-        return bigNumber.mod(BigInteger.valueOf(9)).intValue();
+       return number.chars().map( c -> (c - '0') ).sum()%9;
     }
 }
